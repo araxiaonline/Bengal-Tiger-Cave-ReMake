@@ -8,7 +8,7 @@ Originally by Frosty C https://www.ownedcore.com/forums/world-of-warcraft/world-
 
 
 
-So we all know the Legend of the Bengal Tiger Cave in STV. If not, [read](https://ironyca.wordpress.com/2012/07/18/myths-and-urban-legends-in-wow-the-bengal-tiger-cave/) about it here. Well I've made an SQL script that recreates the myth. I used [this video](https://www.youtube.com/watch?v=8qZeUBOQQoA) for reference.
+So we all know the Legend of the Bengal Tiger Cave in Sttrangle Thorn Vale. If not, [read](https://ironyca.wordpress.com/2012/07/18/myths-and-urban-legends-in-wow-the-bengal-tiger-cave/) about it here. Well I've made an SQL script that recreates the myth. I used [this video](https://www.youtube.com/watch?v=8qZeUBOQQoA) for reference.
 This was made for Trinity, it might work with some other emulators, but I wouldn't try it unless you've confirmed it does work for your database first.
 
 Here's what this SQL does:
