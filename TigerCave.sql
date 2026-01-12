@@ -38,12 +38,15 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 -- ==========================
 --   Spawn
 -- ==========================
-INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `VerifiedBuild`) VALUES (5000000, 7747, 0, 1, 1, 0, 0, -12833.5, -1377.17, 112.917, 3.74826, 300, 0, 0, 198, 0, 0, 0, 0, 0, 0);
+DELETE FROM `creature` WHERE (`id1` = 7747);
+INSERT INTO `creature` (`guid`, `id1`, `id2`, `id3`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `ScriptName`, `VerifiedBuild`, `CreateObject`, `Comment`) VALUES
+(5000000, 7747, 0, 0, 0, 0, 0, 1, 1, 0, -12833.5, -1377.17, 112.917, 3.74826, 300, 0, 0, 198, 0, 0, 0, 0, 0, '', NULL, 0, NULL);
 
 
 -- =======================
 -- Create a .tele command called "BengalTigerCave"
 -- ============================
-INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orientation`, `map`, `name`) VALUES (10000, -12836.4, -1379.02, 112.721, 0.871346, 0, 'BengalTigerCave');
+INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orientation`, `map`, `name`) 
+VALUES (10000, -12836.4, -1379.02, 112.721, 0.871346, 0, 'BengalTigerCave');
 
 
